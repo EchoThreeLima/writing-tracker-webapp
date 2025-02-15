@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-success {
+  animation: success 0.3s ease-in-out;
+}
+
+.animate-success-message {
+  animation: successMessage 0.5s ease-in-out forwards;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 1.5s ease-in-out forwards;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
